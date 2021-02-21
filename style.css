@@ -1,0 +1,14 @@
+/*style.css*/
+
+html {
+    background-color: cornsilk;
+    margin-left: 100px;
+    color: olive;
+}
+title {
+    font-family: Cambria;
+}
+p {
+    font-family: Calibri;
+    color: #444;
+}
