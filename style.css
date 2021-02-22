@@ -1,4 +1,4 @@
-/*style.css*/
+/*STYLE.css*/
 
 html {
     background-color: cornsilk;
@@ -11,4 +11,18 @@ title {
 p {
     font-family: Calibri;
     color: #444;
+}
+.openbtn {
+    background-color: palegoldenrod;
+    font-family: Calibri;
+    font-size: 15px;
+    color: #444;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px lightgray;
+}
+.openbtn:hover {
+    background-color: olive;
+    color: cornsilk;
 }
