@@ -3,16 +3,20 @@
 html {
     background-color: cornsilk;
     color: olive;
-    margin-left: 100px;
     font-family: Calibri;
+    text-align: center;
 }
 h1 {
     font-size: 40px;
 }
-p {
+p.intro {
     color: #444;
+    border-bottom: 2px solid;
+    padding: 10px;
+    margin-left: 550px;
+    margin-right: 550px;
 }
-.openbtn {
+button.openbtn {
     background-color: palegoldenrod;
     font-family: Calibri;
     font-size: 15px;
@@ -23,21 +27,19 @@ p {
     box-shadow: 2px 2px lightgray;
     transition: 0.5s;
 }
-.openbtn:hover {
+button.openbtn:hover {
     background-color: olive;
     color: cornsilk;
     transition: 0.5s;
 }
-.pfp {
-    float: left;
+img.pfp {
+    float: center;
     border-radius: 50%;
-    margin-left: 20px;
-    margin-right: 20px;
     border: 1.5px solid;
     padding: 5px;
-    width: 157px;
+    width: 200px;
 }
-.potted-plants {
-    float: left;
+img.potted-plants {
+    float: center;
     width: 500px;
 }
