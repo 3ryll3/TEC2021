@@ -12,6 +12,7 @@ h1 {
 p.intro {
     color: #444;
     border-bottom: 2px solid;
+    border-color: olive;
     padding: 10px;
     margin-left: 550px;
     margin-right: 550px;
