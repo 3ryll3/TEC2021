@@ -2,14 +2,14 @@
 
 html {
     background-color: cornsilk;
-    margin-left: 100px;
     color: olive;
+    margin-left: 100px;
+    font-family: Calibri;
 }
-title {
-    font-family: Cambria;
+h1 {
+    font-size: 40px;
 }
 p {
-    font-family: Calibri;
     color: #444;
 }
 .openbtn {
@@ -21,8 +21,23 @@ p {
     border: none;
     border-radius: 5px;
     box-shadow: 2px 2px lightgray;
+    transition: 0.5s;
 }
 .openbtn:hover {
     background-color: olive;
     color: cornsilk;
+    transition: 0.5s;
+}
+.pfp {
+    float: left;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1.5px solid;
+    padding: 5px;
+    width: 157px;
+}
+.potted-plants {
+    float: left;
+    width: 500px;
 }
