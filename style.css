@@ -4,23 +4,29 @@ html {
     background-color: cornsilk;
     color: olive;
     font-family: Calibri;
-    text-align: center;
 }
 h1 {
     font-size: 40px;
+    text-align: center;
     text-shadow: 2px 2px 4px gray;
 }
+
+.intro {
+    text-align: center;
+}
+
 p.intro {
     color: #444;
-    border-bottom: 2px solid;
-    border-color: olive;
+    margin: auto;
+    width: 25%;
+    border-bottom: 2px solid olive;
     padding: 10px;
-    text-align: center;
 }
 button.openbtn {
     background-color: palegoldenrod;
     font-family: Calibri;
     font-size: 15px;
+    margin-top: 20px;
     color: #444;
     padding: 7px;
     border: none;
@@ -34,13 +40,37 @@ button.openbtn:hover {
     transition: 0.5s;
 }
 img.pfp {
-    float: center;
     border-radius: 50%;
     border: 1.5px solid;
     padding: 5px;
     width: 200px;
+    margin-bottom: 20px;
 }
 img.potted-plants {
-    float: center;
     width: 500px;
+}
+
+.sec1-lists {
+    float: left;
+    margin-left: 250px;
+    font-size: 25px;
+}
+
+.sec2-table {
+    float: right;
+    margin-right: 255px;
+    margin-top: 75px;
+    margin-bottom: 100px;
+}
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 150%;
+}
+td, th {
+    border: 1px solid #444;
+    padding: 15px;
+}
+tr:nth-child(even) {
+    background-color: palegoldenrod;
 }
