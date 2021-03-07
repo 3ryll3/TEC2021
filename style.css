@@ -60,14 +60,16 @@ li {
 
 div.sec2-table {
     float: right;
-    margin-right: 175px;
-    margin-top: 75px;
+    margin-right: 115px;
+    margin-top: 65px;
     margin-bottom: 100px;
+    height: 258px;
+    width: 458px 120%;
+    overflow: auto;
 }
 table {
     border-collapse: collapse;
     text-align: center;
-    width: 120%;
 }
 td, th {
     border: 1px solid #444;
@@ -97,6 +99,7 @@ div.sec3-time {
 p.time {
     float: right;
     margin-right: 225px;
-    margin-top: 35px;
+    margin-top: 33px;
     font-size: 25px;
+    text-shadow: 2px 2px 4px gray;
 }
